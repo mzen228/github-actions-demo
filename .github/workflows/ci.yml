@@ -2,5 +2,6 @@ name: GitHub Actions Demo
 
 jobs:
   Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello Git Hub Actions"
