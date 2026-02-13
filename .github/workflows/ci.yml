@@ -16,6 +16,8 @@ jobs:
       - name: check out repo
         uses: actions/checkout@v5
       - run: ls -lt
+      - run: python hello.py
+
 
 
 
