@@ -7,3 +7,4 @@ jobs:
     steps:
       - run: echo "Hello Git Hub Actions"
       - run: ls -lt
+      - run: pwd
