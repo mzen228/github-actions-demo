@@ -13,4 +13,9 @@ jobs:
       - run: echo "runner.os ${{ runner.os }}"
       - run: echo "repo name ${{ github.repository}}"
       - run: echo ""
+      - name: check out repo
+        uses: actions/checkout@v5
+      - run: ls -lt
+
+
 
