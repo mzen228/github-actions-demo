@@ -8,4 +8,9 @@ jobs:
       - run: echo "Hello Git Hub Actions"
       - run: ls -lt
       - run: pwd
+      - run: echo "branch name ${{ github.ref }}"
+      - run: echo "trigger ${{ github.event_name }}"
+      - run: echo "runner.os ${{ runner.os }}"
+      - run: echo "repo name ${{ github.repository}}"
+      - run: echo ""
 
