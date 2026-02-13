@@ -8,3 +8,5 @@ jobs:
       - run: echo "Hello Git Hub Actions"
       - run: ls -lt
       - run: pwd
+      - run: python hello.py
+
